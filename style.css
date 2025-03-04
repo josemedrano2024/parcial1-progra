@@ -1,0 +1,33 @@
+img {
+  width: 100px;
+  height: 100px;
+}
+
+p {
+  color: white;
+  margin-left: 80px;
+  font-size: 20pt;
+}
+
+ul {
+  margin-top: 30px;
+  color: white;
+  font-size: 10pt;
+}
+
+.card {
+  background-color: #333;
+  margin-top: 400px;
+  height: 1000%;
+  width: 100%;
+}
+
+footer {
+  background-color: blue;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
