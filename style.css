@@ -1,33 +1,50 @@
 img {
   width: 100px;
+  height: 400px;
+}
+
+.logo {
+  width: 100px;
   height: 100px;
 }
 
-p {
+.titulo {
   color: white;
-  margin-left: 80px;
+  margin-left: 90px;
   font-size: 20pt;
 }
 
-ul {
-  margin-top: 30px;
+.titulo2 {
   color: white;
-  font-size: 10pt;
+}
+
+.card5 {
+  background-color: blue;
+  text-align: center;
+  height: 100px;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+
+.footertext {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card-container {
+  display: flex; /* Utiliza Flexbox */
+  justify-content: space-between; /* Espacio entre las cards */
 }
 
 .card {
-  background-color: #333;
-  margin-top: 400px;
-  height: 1000%;
-  width: 100%;
-}
-
-footer {
-  background-color: blue;
+  margin-top: 30px;
+  width: 30%; /* Ancho de cada card */
   padding: 20px;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
